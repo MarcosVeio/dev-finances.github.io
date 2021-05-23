@@ -393,6 +393,18 @@ footer {
         font-size: 15px;
     }
 
+    .descricao{
+        font-size: 12px;
+    }
+
+    .data{
+        font-size: 12px;
+    }
+
+    .valor{
+        font-size: 12px;
+    }
+
     table tbody tr {
         opacity: 0.7;
         font-size: 15px;
@@ -409,7 +421,7 @@ footer {
     }
 
     td.descripition {
-        color: var(--dark-blue)
+        color: var(--dark-blue);
     }
 
     td.income {
@@ -453,6 +465,21 @@ footer {
         font-size: 12px;
     }
 
+    .descricao{
+        font-size: 12px;
+        
+    }
+
+    .data{
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+    .valor{
+        font-size: 12px;
+        padding-left: 25px;
+    }
+
     table tbody tr {
         opacity: 0.7;
         font-size: 11px;
@@ -469,7 +496,7 @@ footer {
     }
 
     td.descripition {
-        color: var(--dark-blue)
+        color: var(--dark-blue);
     }
 
     td.income {
