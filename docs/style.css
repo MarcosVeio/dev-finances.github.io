@@ -356,6 +356,11 @@ footer {
     color: rgb(151, 151, 151);
 }
 
+.button-add{
+    display: none;
+
+}
+
 /* Responsive =================== */
 @media (min-width: 800px) {
     html {
@@ -509,6 +514,17 @@ footer {
 
     td.expense {
         color: #e92929
+    }
+    
+    .button-add{
+        width: 12%;
+        position: fixed;
+        margin: 15px;
+        transition: 0.3s all ease;
+        display: flex;
+        bottom: 0;
+        right: 0;
+        opacity: 0.7;
     }
 
 }
